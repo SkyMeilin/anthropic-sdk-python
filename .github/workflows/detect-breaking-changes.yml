@@ -21,9 +21,9 @@ jobs:
           fetch-depth: ${{ env.FETCH_DEPTH }}
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v8.1.0
         with:
-          version: '0.10.2'
+          version: '0.11.16'
       - name: Install dependencies
         run: uv sync --all-extras
       - name: Detect removed symbols
