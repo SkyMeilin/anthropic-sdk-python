@@ -50,7 +50,7 @@ Repository = "https://github.com/anthropics/anthropic-sdk-python"
 
 [tool.uv]
 managed = true
-required-version = ">=0.9"
+required-version = ">=0.11.16"
 # Ensure the lockfile always uses public PyPI, regardless of contributor's global uv config
 index = [{ url = "https://pypi.org/simple", default = true }]
 conflicts = [
